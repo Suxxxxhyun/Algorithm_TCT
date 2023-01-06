@@ -51,7 +51,7 @@ public class QuestionP201 {
             result = mid;
             solution(mid+1, end);
         } else {
-            result = mid;
+            //result = mid;
             solution(start, mid-1);
         }
     }

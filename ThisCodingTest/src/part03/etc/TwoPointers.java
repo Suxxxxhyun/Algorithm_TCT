@@ -1,5 +1,6 @@
 package ThisCodingTest.src.part03.etc;
 
+//부분합 경우의 수(p472)
 public class TwoPointers {
 
     static int n = 5;

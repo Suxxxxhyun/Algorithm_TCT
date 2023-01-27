@@ -30,6 +30,7 @@ public class BinarySearchRecursiveP189 {
 		for(int i=0; i<n; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
+
 	
 		binarySearch(0,n-1);
 		

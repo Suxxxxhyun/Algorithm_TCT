@@ -30,6 +30,7 @@ public class SimpleDijkstra {
         st = new StringTokenizer(br.readLine(), " ");
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
+        start = Integer.parseInt(br.readLine());
         graph = new ArrayList[n+1];
         for(int i=1; i<=n; i++){
             graph[i] = new ArrayList<Node>();
@@ -46,6 +47,14 @@ public class SimpleDijkstra {
         Arrays.fill(d, INF);
 
         dijkstra(start);
+
+        for(int i=1; i<=n; i++){
+            if(d[i] == INF){
+                System.out.println("무한");
+            } else {
+                System.out.println(d[i]);
+            }
+        }
     }
 
     //방문하지 않은 노드중에서, 최단거리가 가장 짧은 노드의 번호를 반환(선형탐색)

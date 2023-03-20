@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-/*6 11 1
+/*6 11
+1
 1 2 2
 1 3 5
 1 4 1
